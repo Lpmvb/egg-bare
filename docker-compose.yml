@@ -1,0 +1,24 @@
+version: '3'
+services: 
+  backend:
+    container_name: egg-bare
+    build: .
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - EGG_SERVER_ENV=prod
+      - EGG_MYSQL_DATABASE=
+      - EGG_MYSQL_HOST=
+      - EGG_MYSQL_PORT=
+      - EGG_MYSQL_USERNAME=
+      - EGG_MYSQL_PASSWORD=
+      - EGG_REDIS_HOST=
+      - EGG_REDIS_PORT=
+      - EGG_REDIS_PASSWORD=
+      - EGG_REDIS_DB=
+      - EGG_ALINODE_APPID=
+      - EGG_ALINODE_SECRET=
+    ports:
+      - 7020:80
+    volumes:
+      - /var/log/egg-bare-logs:/root/logs
