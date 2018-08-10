@@ -1,3 +1,6 @@
 {
-  "extends": ["eslint-config-egg", "prettier"]
+  "extends": ["eslint-config-egg", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
 }
