@@ -1,16 +1,16 @@
-"use strict";
+'use strict';
 
 exports.validate = {
   enable: true,
-  package: "egg-validate"
+  package: 'egg-validate',
 };
 
 exports.cors = {
   enable: true,
-  package: "egg-cors"
+  package: 'egg-cors',
 };
 
 exports.sequelize = {
   enable: true,
-  package: "egg-sequelize"
+  package: 'egg-sequelize',
 };
