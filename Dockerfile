@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/aliyun-node/alinode:3.11.5
+FROM registry.cn-hangzhou.aliyuncs.com/aliyun-node/alinode:4-alpine
 
 WORKDIR /app
 
