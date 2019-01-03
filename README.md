@@ -5,15 +5,15 @@
 测试环境
 
 ```bash
-./docker.sh dstart
-./docker.sh dstop
-./docker.sh drestart
+make dstart
+make dstop
+make drestart
 ```
 
 正式环境
 
 ```bash
-./docker.sh start
-./docker.sh stop
-./docker.sh restart
+make start
+make stop
+make restart
 ```
